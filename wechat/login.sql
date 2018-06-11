@@ -4,5 +4,5 @@ CREATE TABLE `user` (
   `created_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
   `updated_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '更新时间',
   PRIMARY KEY (`id`),
-  KEY `idx_openid` (`openid`)
+  KEY `idx_oid` (`open_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
